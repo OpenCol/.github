@@ -1,4 +1,4 @@
-![OpenCol banner](https://github.com/user-attachments/assets/270b9554-2d4d-4aec-8d9f-cc870ec89956)
+![OpenCol banner](banner.jpg)
 
 # OpenCol — Bringing Sid Meier's Colonization Back to Life
 
