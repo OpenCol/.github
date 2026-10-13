@@ -15,12 +15,13 @@ Our long-term goal is **OpenCol**: a modern, cross-platform evolution of the cla
 - **[OpenCol](https://github.com/OpenCol/OpenCol)** *(planned)* — The long-term project: a modern, extensible Colonization experience with gameplay improvements, bug fixes, and quality-of-life features.
 - **[win-port](https://github.com/OpenCol/win-port)** — Native, cross-platform port of the original Windows 3.1 Colonization, preserving original gameplay behavior while running on modern operating systems without Windows 3.1 emulation.
 - **[win31-runtime](https://github.com/OpenCol/win31-runtime)** — Run the original Windows 3.1 version of Colonization on modern operating systems.
-- 
+- **[mapedit](https://github.com/OpenCol/mapedit)** — The original DOS map editor, running natively on macOS and Windows without DOSBox. Same screens, keys, and menus, and byte-identical `.MP` map files. [Download the latest release](https://github.com/OpenCol/mapedit/releases/latest).
+
 ## Reverse Engineering & Preservation
 
 - **[win-decomp](https://github.com/OpenCol/win-decomp)** — Reconstruction of the original Windows 3.1 game source code, with a focus on matching the original compiled binary.
 - **[dos-decomp](https://github.com/OpenCol/dos-decomp)** — Reconstruction of the original DOS game source code, preserving the behavior of the original executable.
-- **[mapedit-decomp](https://github.com/OpenCol/mapedit-decomp)** *(WIP)* — Reverse engineering and source reconstruction of the original Colonization map editor.
+- **[mapedit-decomp](https://github.com/OpenCol/mapedit-decomp)** — Reconstructed C source of the original DOS map editor (`MAPEDIT.EXE`), compiling with Microsoft C 6.00A to the same machine code as the shipped program and using the developers' own function names.
 
 ## Tools & Utilities
 
