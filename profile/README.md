@@ -9,23 +9,31 @@
 
 **Preserving the original. Reconstructing its source code. Building its future.**
 
-OpenCol is an open-source community around **Sid Meier's Colonization (1994)**: we rebuild the original DOS and Windows 3.1 games from their own code so they run on today's computers, document how they work, and make tools for maps, saved games and modding.
+OpenCol is an open-source community around **Sid Meier's Colonization (1994)**: we rebuild the original games from their own code, document how they work, and make tools for maps, saved games and modding. The Windows game already runs on today's computers. The DOS game, as OpenCol, comes next.
 
 ## Play it
 
-You need your own copy of the game. Both stores sell the original 1994 *Classic* game, and it works with everything below:
+### Today: the Windows game, ported
+
+**[win-port](https://github.com/OpenCol/win-port)** is how you play Colonization on a modern computer today. It is the 1995 Windows edition, rebuilt from its own code as a native program, with no emulator. It runs on Windows 7 to 11, and on macOS and Linux through Wine. The rules, pictures, music and saved games are the 1995 game's. **[Download win-port](https://github.com/OpenCol/win-port/releases)**
+
+### What you need: your own copy of the game
 
 | Store | Game |
 | --- | --- |
 | **Steam** | [Sid Meier's Colonization (Classic)](https://store.steampowered.com/app/327400/) |
 | **GOG** | [Sid Meier's Colonization](https://www.gog.com/en/game/sid_meiers_colonization) |
 
-Make sure you buy the 1994 game, not *Civilization IV: Colonization* (2008).
+Both stores sell the DOS release, but its CD image also carries the Windows edition, and win-port finds it there by itself. A copy installed from the 1995 Windows CD-ROM works too. Make sure you buy the 1994 *Classic* game, not *Civilization IV: Colonization* (2008).
 
-- **[Colonization for Windows, ported](https://github.com/OpenCol/win-port)**: the 1995 Windows game rebuilt as a native program, with no emulator. It runs on Windows 7 to 11, and on macOS and Linux through Wine. It has the same rules, pictures, music and saved games, and the Steam or GOG copy already contains the Windows edition. **[Download](https://github.com/OpenCol/win-port/releases)**
-- **[win31-runtime](https://github.com/OpenCol/win31-runtime)**: runs the original 16-bit Windows program itself on a modern computer.
-- **[win-patches](https://github.com/OpenCol/win-patches)**: community patches for the original Windows game: animated water, bug fixes and hidden features. **[Download](https://github.com/OpenCol/win-patches/releases/latest)**
-- **OpenCol** *(in development, not public yet)*: the community edition. The DOS game is rebuilt as a modern program that plays exactly like the original, with fixes and new features as options you choose. Follow it on [Discord](https://discord.gg/4XP4S9yfJ8).
+### Coming next: OpenCol
+
+**OpenCol** *(in development, not public yet)* is where this project is going. It is a community edition built from the DOS game, which plays exactly like the original first. After that come bug fixes and new features, each one an option you choose. Until it is released, play with win-port. The Steam or GOG copy you buy for it will play OpenCol too. Follow its progress on [Discord](https://discord.gg/4XP4S9yfJ8).
+
+### More for the original Windows game
+
+- **[win31-runtime](https://github.com/OpenCol/win31-runtime)**: runs the original, unmodified 16-bit program on a modern computer.
+- **[win-patches](https://github.com/OpenCol/win-patches)**: community patches for the original program, including animated water, bug fixes and hidden features. **[Download](https://github.com/OpenCol/win-patches/releases/latest)**
 
 ## Make and share maps
 
