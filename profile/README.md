@@ -4,48 +4,55 @@
 
 **Preserving the original. Reconstructing its source code. Building its future.**
 
-OpenCol is an open-source initiative dedicated to reverse engineering, preserving, and modernizing **Sid Meier's Colonization (1994)**.
+OpenCol is an open-source community around **Sid Meier's Colonization (1994)**: we rebuild the original DOS and Windows 3.1 games from their own code so they run on today's computers, document how they work, and make tools for maps, saved games and modding.
 
-Our work spans the original DOS and Windows 3.1 releases — reconstructing their source code, documenting their inner workings, preserving original gameplay behavior, and developing tools and ports for modern operating systems.
+## Play it
 
-Our long-term goal is **OpenCol**: a modern, cross-platform evolution of the classic game, built upon a deep understanding of the original.
+You need your own copy of the game. Both stores sell the original 1994 *Classic* game, and it works with everything below:
 
-## Games & Modern Ports
+| Store | Game |
+| --- | --- |
+| **Steam** | [Sid Meier's Colonization (Classic)](https://store.steampowered.com/app/327400/) |
+| **GOG** | [Sid Meier's Colonization](https://www.gog.com/en/game/sid_meiers_colonization) |
 
-- **[OpenCol](https://github.com/OpenCol/OpenCol)** *(planned)* — The long-term project: a modern, extensible Colonization experience with gameplay improvements, bug fixes, and quality-of-life features.
-- **[win-port](https://github.com/OpenCol/win-port)** — Native, cross-platform port of the original Windows 3.1 Colonization, preserving original gameplay behavior while running on modern operating systems without Windows 3.1 emulation.
-- **[win31-runtime](https://github.com/OpenCol/win31-runtime)** — Run the original Windows 3.1 version of Colonization on modern operating systems.
-- **[mapedit](https://github.com/OpenCol/mapedit)** — The original DOS map editor, running natively on macOS and Windows without DOSBox. Same screens, keys, and menus, and byte-identical `.MP` map files. [Download the latest release](https://github.com/OpenCol/mapedit/releases/latest).
+Make sure you buy the 1994 game, not *Civilization IV: Colonization* (2008).
 
-## Reverse Engineering & Preservation
+- **[Colonization for Windows, ported](https://github.com/OpenCol/win-port)**: the 1995 Windows game rebuilt as a native program, with no emulator. It runs on Windows 7 to 11, and on macOS and Linux through Wine. It has the same rules, pictures, music and saved games, and the Steam or GOG copy already contains the Windows edition. **[Download](https://github.com/OpenCol/win-port/releases)**
+- **[win31-runtime](https://github.com/OpenCol/win31-runtime)**: runs the original 16-bit Windows program itself on a modern computer.
+- **[win-patches](https://github.com/OpenCol/win-patches)**: community patches for the original Windows game: animated water, bug fixes and hidden features. **[Download](https://github.com/OpenCol/win-patches/releases/latest)**
+- **OpenCol** *(in development, not public yet)*: the community edition. The DOS game is rebuilt as a modern program that plays exactly like the original, with fixes and new features as options you choose. Follow it on [Discord](https://discord.gg/4XP4S9yfJ8).
 
-- **[win-decomp](https://github.com/OpenCol/win-decomp)** — Reconstruction of the original Windows 3.1 game source code, with a focus on matching the original compiled binary.
-- **[dos-decomp](https://github.com/OpenCol/dos-decomp)** — Reconstruction of the original DOS game source code, preserving the behavior of the original executable.
-- **[mapedit-decomp](https://github.com/OpenCol/mapedit-decomp)** — Reconstructed C source of the original DOS map editor (`MAPEDIT.EXE`), compiling with Microsoft C 6.00A to the same machine code as the shipped program and using the developers' own function names.
+## Make and share maps
 
-## Tools & Utilities
+- **[Map Editor](https://github.com/OpenCol/mapedit)**: the original DOS map editor, running natively on macOS and Windows without DOSBox. It has the same screens, keys and menus, and saves byte-identical `.MP` maps. **[Download](https://github.com/OpenCol/mapedit/releases/latest)**
+- **[Map Archive](https://opencol.github.io/maps/)**: community maps and scenarios, including maps from sites that have disappeared. You can **[submit your own](https://github.com/OpenCol/maps/issues/new?template=map_submission.yml)**.
+- **[fsm-to-mp](https://github.com/OpenCol/fsm-to-mp)**: converts FreeCol `.fsm` maps into classic `.MP` maps.
 
-- **[dos-tools](https://github.com/OpenCol/dos-tools)** — Extract, modify, and rebuild DOS game assets, including graphics, palettes, and text. Preview original maps and saved games.
-- **[win-tools](https://github.com/OpenCol/win-tools)** — Extract, convert, and rebuild game assets from the Windows release.
-- **[fsm-to-mp](https://github.com/OpenCol/fsm-to-mp)** — Convert FreeCol `.fsm` maps into classic Colonization `.MP` maps.
-- **[sav-editor](https://github.com/OpenCol/sav-editor)** *(WIP)* — Browser-based editor for Colonization saved games.
-- **[win-patches](https://github.com/OpenCol/win-patches)** — Community patches restoring animated water, fixing bugs, and unlocking hidden features in the original Windows release.
+## Read how it works
 
-## Maps, Documentation & Shared Resources
+- **[Documentation](https://opencol.github.io/docs/)**: how the game really works, read out of its own code. It covers map generation, combat, taxes, Founding Fathers and difficulty, the `.SAV` and `.MP` formats, every DOS and Windows file format, and how the versions differ.
+- **[Savegame Editor](https://opencol.github.io/sav-editor/)**: reads and edits `.SAV` saved games in your browser.
 
-- **[maps](https://github.com/OpenCol/maps)** — Archive of community-created maps and scenarios.
-- **[docs](https://github.com/OpenCol/docs)** — Documentation of game mechanics, internal systems, and discoveries from reverse engineering.
-- **[web-ui](https://github.com/OpenCol/web-ui)** — Shared UI styles and components used across OpenCol web projects.
+## Under the hood
 
-## Community
+- **Source reconstructions** *(not public yet)*:
+  - **win-decomp**: the Windows 3.1 game, rebuilt byte-for-byte from the original program.
+  - **dos-decomp**: the DOS game, rebuilt from the original program.
+  - **mapedit-decomp**: the DOS map editor, which compiles with Microsoft C 6.00A to the same machine code as the shipped program and uses the developers' own function names.
+- **[dos-tools](https://github.com/OpenCol/dos-tools)**: extracts, modifies and rebuilds the DOS game's graphics, palettes and text, and previews maps and saved games.
+- **[win-tools](https://github.com/OpenCol/win-tools)**: extracts, converts and rebuilds the Windows release's assets.
+- **[web-ui](https://github.com/OpenCol/web-ui)**: the shared styles behind the OpenCol websites.
 
-Whether you're a developer, reverse engineer, modder, artist, or longtime Colonization player, you're welcome to join the project.
+## How to help
 
-Contributions can range from code and documentation to bug reports, testing, historical research, and sharing custom maps or saved games.
+Players, modders, artists, reverse engineers and historians are all welcome.
 
-- **[Discord](https://discord.gg/4XP4S9yfJ8)** — Discuss development, share discoveries, and get involved.
-- **[r/ColonizationGame](https://www.reddit.com/r/ColonizationGame/)** — Connect with the Colonization community.
+- **Talk to us** on **[Discord](https://discord.gg/4XP4S9yfJ8)**: development, discoveries, and what to fix next.
+- **Report a bug** in the issues of the project it affects, for example [win-port](https://github.com/OpenCol/win-port/issues) or [mapedit](https://github.com/OpenCol/mapedit/issues).
+- **Share a map** through the [submission form](https://github.com/OpenCol/maps/issues/new?template=map_submission.yml), or send us an old one you still have.
+- **Improve the documentation**: [docs](https://github.com/OpenCol/docs) is plain Markdown, and corrections and findings are welcome.
+- **Meet other players** on **[r/ColonizationGame](https://www.reddit.com/r/ColonizationGame/)**.
 
 ---
 
-*OpenCol is an independent fan-made project and is not affiliated with or endorsed by the original creators or rights holders. Original game files are not distributed; users must provide their own legally obtained copy where required.*
+*OpenCol is an independent fan-made project and is not affiliated with or endorsed by the original creators or rights holders. No original game files are distributed: you need your own legally obtained copy of the game.*
