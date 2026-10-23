@@ -7,6 +7,8 @@
 
 # OpenCol
 
+**Preserving the original. Reconstructing its source code. Building its future.**
+
 A fan project around Sid Meier's Colonization (1994). We rebuild the original games from their own code, write down how they work, and make tools for maps and saved games. The Windows version already runs natively on modern systems. The DOS version is next, as OpenCol.
 
 ## Play
