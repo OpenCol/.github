@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://github.com/OpenCol/win-port"><img src="screenshots/map-revealed.png" width="32%" alt="The map of a late game, revealed: the southern continent, roads and colonies"></a>
-  <a href="https://github.com/OpenCol/win-port"><img src="screenshots/map-colonies.png" width="32%" alt="English colonies joined by roads, with plowed fields around them"></a>
-  <a href="https://github.com/OpenCol/win-port"><img src="screenshots/colony.png" width="32%" alt="A colony screen: buildings, fields, docks and warehouse"></a>
+  <a href="https://raw.githubusercontent.com/OpenCol/.github/main/profile/screenshots/map-revealed.png"><img src="screenshots/map-revealed-thumb.jpg" width="240" alt="The map of a late game, revealed: the southern continent, roads and colonies"></a>
+  <a href="https://raw.githubusercontent.com/OpenCol/.github/main/profile/screenshots/map-colonies.png"><img src="screenshots/map-colonies-thumb.jpg" width="240" alt="English colonies joined by roads, with plowed fields around them"></a>
+  <a href="https://raw.githubusercontent.com/OpenCol/.github/main/profile/screenshots/colony.png"><img src="screenshots/colony-thumb.jpg" width="240" alt="A colony screen: buildings, fields, docks and warehouse"></a>
 </p>
-<p align="center"><sub>The 1995 Windows game, running in <a href="https://github.com/OpenCol/win-port">win-port</a>.</sub></p>
+<p align="center"><sub>The 1995 Windows game, running in <a href="https://github.com/OpenCol/win-port">win-port</a>. Click a picture to see it full size.</sub></p>
 
 # OpenCol
 
