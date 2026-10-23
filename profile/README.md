@@ -26,7 +26,7 @@ A fan project around Sid Meier's Colonization (1994). We rebuild the original ga
 | Steam | [Sid Meier's Colonization (Classic)](https://store.steampowered.com/app/327400/) |
 | GOG | [Sid Meier's Colonization](https://www.gog.com/en/game/sid_meiers_colonization) |
 
-Both sell the DOS version, but the CD image that comes with it also has the Windows version on it, and win-port picks it up from there. A copy installed from the 1995 Windows CD-ROM works too. Don't buy *Civilization IV: Colonization* by mistake - that's the 2008 remake.
+Both sell the DOS version, but the CD image that comes with it also has the Windows version on it, and win-port picks it up from there. A copy installed from the 1995 Windows CD-ROM works too.
 
 ### Next: OpenCol
 
