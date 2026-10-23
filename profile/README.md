@@ -1,4 +1,9 @@
-![OpenCol banner](banner.jpg)
+<p align="center">
+  <a href="https://github.com/OpenCol/win-port"><img src="screenshots/map-revealed.png" width="32%" alt="The map of a late game, revealed: the southern continent, roads and colonies"></a>
+  <a href="https://github.com/OpenCol/win-port"><img src="screenshots/map-colonies.png" width="32%" alt="English colonies joined by roads, with plowed fields around them"></a>
+  <a href="https://github.com/OpenCol/win-port"><img src="screenshots/colony.png" width="32%" alt="A colony screen: buildings, fields, docks and warehouse"></a>
+</p>
+<p align="center"><sub>The 1995 Windows game, running in <a href="https://github.com/OpenCol/win-port">win-port</a>.</sub></p>
 
 # OpenCol — Bringing Sid Meier's Colonization Back to Life
 
@@ -52,6 +57,8 @@ Players, modders, artists, reverse engineers and historians are all welcome.
 - **Share a map** through the [submission form](https://github.com/OpenCol/maps/issues/new?template=map_submission.yml), or send us an old one you still have.
 - **Improve the documentation**: [docs](https://github.com/OpenCol/docs) is plain Markdown, and corrections and findings are welcome.
 - **Meet other players** on **[r/ColonizationGame](https://www.reddit.com/r/ColonizationGame/)**.
+
+![OpenCol banner](banner.jpg)
 
 ---
 
